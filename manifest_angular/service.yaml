@@ -8,5 +8,6 @@ spec:
   ports:
   - name: name-of-service-port
     protocol: TCP
-    port: 80
-    targetPort: http-web-svc
+    port: 8000      
+    targetPort: 80      
+    nodePort: 31000
