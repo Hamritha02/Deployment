@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: goksatexpleo/gitangular:110
+          image: goksatexpleo/gitangular:111
           ports:
             - containerPort: 80  # Adjust the container port as needed
