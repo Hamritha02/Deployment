@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: goksatexpleo/gitangular:128
+          image: githubactionregistory.azurecr.io/angularurl:1
           ports:
             - containerPort: 80  # Adjust the container port as needed
