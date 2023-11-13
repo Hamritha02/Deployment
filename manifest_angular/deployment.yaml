@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: githubactionregistory.azurecr.io/angularurl:1
+          image: githubactionregistory.azurecr.io/angularurl:143
           ports:
             - containerPort: 80  # Adjust the container port as needed
