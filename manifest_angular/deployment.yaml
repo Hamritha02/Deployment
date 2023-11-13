@@ -12,6 +12,8 @@ spec:
       labels:
         app: my-app
     spec:
+      imagePullSecrets:
+        - name: docker-secret
       containers:
         - name: my-app
           image: githubactionregistory.azurecr.io/angularurl:143
