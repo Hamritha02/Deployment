@@ -16,6 +16,6 @@ spec:
         - name: docker-secret
       containers:
         - name: my-app
-          image: githubactionregistory.azurecr.io/angularurl:143
+          image: githubactionregistory.azurecr.io/angularurl:144
           ports:
             - containerPort: 80  # Adjust the container port as needed
